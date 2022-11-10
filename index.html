@@ -32,18 +32,26 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#">ECE 425</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Resources</a>
+                    <li class="nav-item dropdown ">
+                        <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Resources
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item active" href="">Tiva™ C Series TM4C123G LaunchPad</a></li>
+                            <li><a class="dropdown-item" href="#">ARM Keil µVision® IDE</a></li>
+                        </ul>
                     </li>
-
                 </ul>
             </div>
         </div>
     </nav>
 
+
+
     <div class="px-4 py-5 my-5 text-center">
         <img class="d-block mx-auto mb-4" src="image/ek-tm4c123gxl-angled.png">
-        <h1 class="display-5 fw-bold">Tiva C-Series LaunchPad Resources</h1>
+        <h1 class="display-5 fw-bold">Tiva™ C Series TM4C123G LaunchPad Evaluation Kit </br> Resources</h1>
         <div class="col-lg-6 mx-auto">
             <!-- <p class="lead mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s
                 most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system,
@@ -56,10 +64,21 @@
     <div class="container text-center pt-3">
         <div class="row">
             <div class="col">
-                TODO
+                <div class="card">
+                    <div class="card-header">
+                        Useful
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Tiva™ TM4C123GH6PM Microcontroller Datasheet</h5>
+                        <p class="card-text">Contains all technical information regarding Tiva™ TM4C123GH6PM
+                            Microcontroller
+                            via Keil uVision</p>
+                        <a href="https://www.ti.com/lit/pdf/spms376"
+                            target="blank" class="btn btn-primary">Download</a>
+                    </div>
+                </div>
             </div>
             <div class="col">
-
                 <div class="card">
                     <div class="card-header">
                         Required
@@ -69,17 +88,25 @@
                         <p class="card-text">Required to program the Tiva Launhpad via JTAG. Needed to conduct debugging
                             via Keil uVision</p>
                         <a href="https://www.ti.com/tool/STELLARIS_ICDI_DRIVERS" target="blank"
-                            class="btn btn-primary">Download</a>
+                            class="btn btn-primary">Go to TI</a>
                     </div>
                 </div>
             </div>
             <div class="col">
-                TODO
+                <div class="card">
+                    <div class="card-header">
+                        Useful
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Tiva™ C Series TM4C123G LaunchPad User's Guide</h5>
+                        <p class="card-text">Contains board level technical information regarding the Tiva™ C Series TM4C123G LaunchPad</p>
+                        <a href="https://www.ti.com/lit/pdf/spmu296"
+                            target="blank" class="btn btn-primary">Download</a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-
-
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
         integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
